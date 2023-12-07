@@ -13,6 +13,6 @@ export default function CategoryItem() {
           />
       </div>
       <p className="text-[8px] text-dark capitalize pt-5">Hand Dishwashing</p>
-  </div>
+    </div>
   )
 }
