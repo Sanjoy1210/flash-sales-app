@@ -1,36 +1,58 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Requirement
 
-## Getting Started
+Here, you'll have to convert a provided design to an interactive frontend project. You can use any frontend frameworks or tools required to achieve the desired result.
 
-First, run the development server:
+## Instruction:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+- Objective: Create a pixel-perfect design.
+- CSS Framework: Utilize Tailwind CSS (mandatory).
+- Framework: Use React or Next.js (mandatory).
+- Coding Standards: Emphasize writing clean and reusable code.
+
+### Do:
+
+- Convert the provided design to a web app with as much accuracy as possible.
+
+## Run the project in locally
+
+Clone this repository -
+
+```sh
+git clone https://github.com/Sanjoy1210/flash-sales-app.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Go to the cloned project directory
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```sh
+cd flash-sales-app
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+install the dependencies
 
-## Learn More
+```sh
+npm i
+```
 
-To learn more about Next.js, take a look at the following resources:
+or
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```sh
+yarn
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+start the development server
 
-## Deploy on Vercel
+```sh
+npm run dev
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+or
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+```sh
+yarn dev
+```
+
+Your app should be available in http://localhost:3000/ and make your browser for a 340px mobile device for the original view.
+
+## Project live preview
+
+- [flash sales app](https://flash-sales-app.vercel.app/)

@@ -8,6 +8,7 @@ export default function BannerContainer() {
             alt="Banner" 
             fill 
             sizes="100%"
+            priority={true}
             className='object-cover w-full h-full'
         />
     </div>

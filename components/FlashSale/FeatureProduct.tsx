@@ -12,6 +12,7 @@ export default function FeatureProduct({imageUrl, title, percentOff, newPrice, o
                 alt={title} 
                 fill 
                 sizes="100%"
+                priority={true}
                 className='object-contain w-full h-full p-1.5'
             />
         </div>
