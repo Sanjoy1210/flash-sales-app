@@ -17,7 +17,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={`${inter.className} bg-gray max-w-[340px] mx-auto`}>
         <MobileMenu />
         <main>
           {children}
