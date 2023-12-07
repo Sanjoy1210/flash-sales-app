@@ -1,4 +1,14 @@
-export const productsData = [
+export type ProductDataType = {
+    id: number;
+    title: string;
+    newPrice: number;
+    oldPrice: number;
+    percentOff: number;
+    imageUrl: string;
+    category: string;
+};
+
+export const productsData: ProductDataType[] = [
     {
         id: 1,
         title: "Xiaomi Redmi 21.45 inches FHD Black",
