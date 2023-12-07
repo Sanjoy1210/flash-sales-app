@@ -12,7 +12,7 @@ export default function ArrowButton({ onClick, Icon, isShown, isLeft }: ArrowBut
   return (
     <button 
         onClick={onClick} 
-        className={`absolute flex items-center justify-center bg-white rounded-full w-6 h-6 shadow-md text-lg text-light-gray top-1/2 ${isLeft ? 'left-0' : 'right-0'} transform -translate-y-1/2 ${isShown ? 'hidden' : 'block'}`}
+        className={`absolute flex items-center justify-center bg-white rounded-full w-7 h-7 shadow-md text-lg text-light-gray top-1/2 ${isLeft ? 'left-0' : 'right-0'} transform -translate-y-1/2 ${isShown ? 'hidden' : 'block'}`}
     >
         <Icon />
     </button>

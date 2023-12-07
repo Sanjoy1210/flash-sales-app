@@ -35,6 +35,7 @@ export default function ProductSlider() {
               category={item?.category} 
               imageUrl={item?.imageUrl} 
               isShow={index >= currentIndex && index <= currentIndex + 3}
+              isLast={index === productsData?.length - 1 || index === productsData?.length - 2 }
             />
           ))}
         </div>

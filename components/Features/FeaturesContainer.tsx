@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 export default function FeaturesContainer() {
   return (
-    <section>
+    <section className='px-1.5'>
         <div className="flex justify-between items-center gap-2.5">
             {
                 features?.map(feature => (
